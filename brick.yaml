@@ -1,5 +1,5 @@
-name: next_shadcnui_brick
-description: A new brick created with the Mason CLI.
+name: next_shadcnui_addon_brick
+description: Integrate ShadcnUI into your Next.js projects with this brick.
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
@@ -26,8 +26,3 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  name:
-    type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
