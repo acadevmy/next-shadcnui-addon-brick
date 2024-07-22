@@ -11,7 +11,7 @@ interface ButtonPropsDef
 
 export type ButtonProps = Omit<ButtonPropsDef, "className">;
 
-const buttonVariants = cva(styles.button, {
+export const buttonVariants = cva(styles.button, {
   variants: {
     variant: {
       default: styles.default,
