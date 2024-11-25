@@ -26,13 +26,14 @@
     @apply text-primary underline-offset-4 hover:underline;
   }
 
-  &.default {
-    @apply h-10 px-4 py-2;
-  }
 
   // sizes
   &.sm {
     @apply h-9 rounded-md px-3;
+  }
+
+  &.md {
+    @apply h-10 px-4 py-2;
   }
 
   &.lg {

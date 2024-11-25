@@ -22,14 +22,14 @@ export const buttonVariants = cva(styles.button, {
       link: styles.link,
     },
     size: {
-      default: styles.default,
       sm: styles.sm,
+      md: styles.md,
       lg: styles.lg,
       icon: styles.icon,
     },
   },
   defaultVariants: {
     variant: "default",
-    size: "default",
+    size: "md",
   },
 });

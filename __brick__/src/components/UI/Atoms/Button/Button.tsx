@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   ButtonProps,
   buttonVariants,
-} from "@/components/UI/Button/ButtonProps";
+} from "@/components/UI/Atoms/Button/ButtonProps";
 import { cn } from "@/utils/style";
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
