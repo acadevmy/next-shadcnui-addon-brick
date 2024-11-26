@@ -16,7 +16,7 @@ Future<void> runPnpm({
     'lucide-react',
     'tailwind-merge',
     'tailwindcss-animate',
-    '@radix-ui/react-slot'
+    '@radix-ui/react-slot',
     '@radix-ui/react-dialog'
   ]);
   context.logger.success('📦 shadcn/ui configured successfully 🚀');
